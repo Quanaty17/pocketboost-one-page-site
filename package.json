@@ -1,0 +1,11 @@
+{
+  "name": "pocketboost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pocketboost: SHEIN promo codes and deals for shoppers worldwide.",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js && npx --yes serve dist"
+  },
+  "engines": { "node": ">=18" }
+}
