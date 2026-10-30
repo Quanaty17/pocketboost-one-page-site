@@ -71,3 +71,22 @@ footer p{max-width:70ch;margin:0 0 8px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .nf{padding:72px 0}
 .nf a.banner{max-width:560px}
+
+/* Content pages and guides */
+footer a{color:var(--muted)}footer a:hover{color:var(--ink)}
+.page{max-width:720px;padding-top:48px;padding-bottom:24px}
+.page h1{font-size:clamp(30px,5vw,44px);max-width:none;margin-bottom:20px}
+.page h2{font-size:23px;margin:34px 0 10px}
+.page p,.page li{color:var(--muted);font-size:17px;line-height:1.7;max-width:68ch}
+.page p strong{color:var(--ink)}
+.page a,.lead a{color:var(--boost)}
+.lead{color:var(--muted);max-width:62ch;margin:0 0 8px}
+.posts{list-style:none;padding:0;margin:0}
+.posts li{padding:16px 0;border-bottom:1px solid var(--line)}
+.posts a{font:700 18px var(--body);color:var(--ink);text-decoration:none}
+.posts a:hover{color:var(--boost);text-decoration:underline}
+.posts span{display:block;color:var(--muted);font-size:15px;margin-top:2px}
+@media (max-width:560px){nav a:not(:last-child){display:inline}nav a{margin-left:12px;font-size:14px}.logo{font-size:19px}}
+
+.lead strong{color:var(--ink)}
+#monthly .lead{margin-bottom:14px}
